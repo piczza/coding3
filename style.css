@@ -1,0 +1,42 @@
+body{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+
+}
+.n1, .n2, .n3{
+    background-color: skyblue;
+    flex-direction: column;
+    height: 1000px;
+    border: 1px solid black;
+}
+.icon1, .icon2, .icon3{
+    background-color: lightpink;
+    height: 100px;
+    width: 100px;
+}
+.vh1, .vh2, .vh4{
+    background-color: lightyellow;
+    height: 300px;
+    width: 90%;
+    height: 90%;
+}
+
+.n1{
+    flex: 0.3 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.n2{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+.n3{
+    flex: 4 1 auto;
+    display: flex;
+    align-items: center;
+}
